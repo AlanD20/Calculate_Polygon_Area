@@ -16,7 +16,16 @@ $ ./Calculate_Polygon_Area.sln
 
 The program asks for the file that contains polygon area with the following format
 ```
-(N, 17.5), (E, 20.4), (S, 25), (E, 7.6), (S, 10), (W, 56), (N, 17.5), (E, 28),
+(direction, length), (direction, length), (direction, length),
+```
+##### directions are 
+`E - East`, `N - North`, `W - West`, `S - South`
+##### Lengths can be anything
+`33`, `2.8`, `8.2`
+
+#### Here is an example.
+```
+(S, 25), (E, 7.6), (N, 17.5), (E, 28), (S, 10), (W, 56), (N, 17.5), (E, 20.4), 
 ```
 after the file opened on the program it calculates the total area of the polygon.
 
